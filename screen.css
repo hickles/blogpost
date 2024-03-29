@@ -1,1 +1,52 @@
 /* Add screen styles below */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00529b; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding for spacing */
+    font-family: Arial, sans-serif; /* Use a legible font */
+    font-size: 18px; /* Increase font size for better readability */
+    line-height: 1.6; /* Increase line height for easier reading */
+}
+
+article header {
+    margin-bottom: 20px;
+}
+
+article header h2 {
+    margin-top: 0;
+    color: #00529b; /* Dark Blue */
+}
+
+ol li {
+    line-height: 24px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li input {
+  margin-right: 16px;
+}
